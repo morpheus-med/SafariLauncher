@@ -278,7 +278,8 @@
 		0CF376CD175F268800CF1F65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "${IDENTITY_NAME}";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SafariLauncher/SafariLauncher-Prefix.pch";
 				INFOPLIST_FILE = "SafariLauncher/SafariLauncher-Info.plist";
@@ -292,7 +293,8 @@
 		0CF376CE175F268800CF1F65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "${IDENTITY_NAME}";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SafariLauncher/SafariLauncher-Prefix.pch";
 				INFOPLIST_FILE = "SafariLauncher/SafariLauncher-Info.plist";
